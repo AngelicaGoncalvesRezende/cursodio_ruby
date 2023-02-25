@@ -1,0 +1,20 @@
+#Percorrer uma coleção de forma parecida ao for, mas não sobescrevendo o valor de variáveis fora da estrutura de repetição
+
+#Primeiro vamos usar o EACH (CADA) em um array
+
+#criar array
+nomes = ['Maria', 'João', 'Marcelo']
+
+nome = 'Mariana'
+
+nomes.each do |nome|
+puts nome
+end
+puts nome
+
+#vamos usar each com hashes
+#cursos = {'Curso 1' => 'Ruby', 'Curso 2' => 'Go', 'Curso 3' => 'Python'}
+
+#cursos.each do |key,value|
+#   puts #{key} #{value}
+#end
